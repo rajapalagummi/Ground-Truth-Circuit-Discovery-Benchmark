@@ -1,0 +1,10 @@
+{
+  "d_model": 256,
+  "n_layers": 6,
+  "n_heads": 8,
+  "d_head": 32,
+  "mlp_modules_per_layer": 4,
+  "mlp_hidden": 256,
+  "max_seq_len": 64,
+  "dropout": 0.0
+}

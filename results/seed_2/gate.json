@@ -1,0 +1,24 @@
+[
+  {
+    "lambda_off": 0.05,
+    "TASK_SYNTAX": {
+      "keep": 1.034750578483544,
+      "remove": -0.008210812531842767,
+      "gt_size": 15,
+      "gt_nodes_individually_necessary": 5
+    },
+    "TASK_ARITH": {
+      "keep": 1.0002103544850394,
+      "remove": 5.17829058538563e-05,
+      "gt_size": 12,
+      "gt_nodes_individually_necessary": 9
+    },
+    "TASK_RHYME": {
+      "keep": 1.0738133940571082,
+      "remove": -0.05197405007852645,
+      "gt_size": 17,
+      "gt_nodes_individually_necessary": 11
+    },
+    "passed": true
+  }
+]

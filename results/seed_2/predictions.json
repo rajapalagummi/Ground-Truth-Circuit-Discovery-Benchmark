@@ -1,0 +1,94 @@
+{
+  "Group-KNN": {
+    "TASK_SYNTAX": [
+      "blocks.0.attn.heads.6"
+    ],
+    "TASK_ARITH": [
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.4",
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2",
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.1"
+    ],
+    "TASK_RHYME": [
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.5",
+      "blocks.1.mlps.0"
+    ]
+  },
+  "Greedy-ACDC": {
+    "TASK_SYNTAX": [
+      "blocks.0.attn.heads.6",
+      "blocks.1.attn.heads.3",
+      "blocks.1.mlps.2",
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.5",
+      "blocks.2.attn.heads.7",
+      "blocks.3.attn.heads.1",
+      "blocks.3.attn.heads.2"
+    ],
+    "TASK_ARITH": [
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.4",
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2",
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.5",
+      "blocks.3.mlps.3",
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.1"
+    ],
+    "TASK_RHYME": [
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.5",
+      "blocks.1.mlps.0",
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.5",
+      "blocks.2.mlps.2",
+      "blocks.3.attn.heads.1",
+      "blocks.3.attn.heads.3",
+      "blocks.3.attn.heads.6",
+      "blocks.3.mlps.2",
+      "blocks.4.attn.heads.1",
+      "blocks.4.mlps.2"
+    ]
+  },
+  "Gradient-Attribution": {
+    "TASK_SYNTAX": [
+      "blocks.0.attn.heads.6",
+      "blocks.0.mlps.3",
+      "blocks.1.attn.heads.3",
+      "blocks.1.mlps.2",
+      "blocks.2.attn.heads.5",
+      "blocks.2.attn.heads.7"
+    ],
+    "TASK_ARITH": [
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.4",
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2",
+      "blocks.3.mlps.3",
+      "blocks.4.attn.heads.2",
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.1"
+    ],
+    "TASK_RHYME": [
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.5",
+      "blocks.1.mlps.0",
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.5",
+      "blocks.3.attn.heads.3",
+      "blocks.3.mlps.2",
+      "blocks.4.mlps.2"
+    ]
+  }
+}

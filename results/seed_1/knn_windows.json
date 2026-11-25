@@ -1,0 +1,2637 @@
+[
+  {
+    "nodes": [
+      "blocks.0.attn.heads.0",
+      "blocks.0.attn.heads.1",
+      "blocks.0.attn.heads.2",
+      "blocks.0.attn.heads.3",
+      "blocks.0.attn.heads.4",
+      "blocks.0.attn.heads.5",
+      "blocks.0.attn.heads.6",
+      "blocks.0.attn.heads.7"
+    ],
+    "W": 8,
+    "scores": [
+      1.0000732203425904,
+      0.006194483602721124,
+      0.08730818224964787
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.4",
+      "blocks.0.attn.heads.5",
+      "blocks.0.attn.heads.6",
+      "blocks.0.attn.heads.7",
+      "blocks.0.mlps.0",
+      "blocks.0.mlps.1",
+      "blocks.0.mlps.2",
+      "blocks.0.mlps.3"
+    ],
+    "W": 8,
+    "scores": [
+      1.001753146257953,
+      0.0020407303565072032,
+      0.061689441439685244
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.0",
+      "blocks.0.mlps.1",
+      "blocks.0.mlps.2",
+      "blocks.0.mlps.3",
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.30471196707752257,
+      -3.044200077018111e-05,
+      0.18000612245441905
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3",
+      "blocks.1.attn.heads.4",
+      "blocks.1.attn.heads.5",
+      "blocks.1.attn.heads.6",
+      "blocks.1.attn.heads.7"
+    ],
+    "W": 8,
+    "scores": [
+      0.1524604655315681,
+      5.663536332189967e-05,
+      0.6443517502602367
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.4",
+      "blocks.1.attn.heads.5",
+      "blocks.1.attn.heads.6",
+      "blocks.1.attn.heads.7",
+      "blocks.1.mlps.0",
+      "blocks.1.mlps.1",
+      "blocks.1.mlps.2",
+      "blocks.1.mlps.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.11808979609396852,
+      0.0002953414262506504,
+      0.43703255603937996
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.0",
+      "blocks.1.mlps.1",
+      "blocks.1.mlps.2",
+      "blocks.1.mlps.3",
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.0503055590321515,
+      0.10018725139420137,
+      0.268014539035935
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.3",
+      "blocks.2.attn.heads.4",
+      "blocks.2.attn.heads.5",
+      "blocks.2.attn.heads.6",
+      "blocks.2.attn.heads.7"
+    ],
+    "W": 8,
+    "scores": [
+      0.00485414262033701,
+      0.9995235773896435,
+      0.3263775616855741
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.4",
+      "blocks.2.attn.heads.5",
+      "blocks.2.attn.heads.6",
+      "blocks.2.attn.heads.7",
+      "blocks.2.mlps.0",
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2",
+      "blocks.2.mlps.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.13648374570103694,
+      0.9737487067217973,
+      0.15431146205931245
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.0",
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2",
+      "blocks.2.mlps.3",
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.1",
+      "blocks.3.attn.heads.2",
+      "blocks.3.attn.heads.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.1298466759372079,
+      0.722771138203403,
+      0.18250832551590646
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.1",
+      "blocks.3.attn.heads.2",
+      "blocks.3.attn.heads.3",
+      "blocks.3.attn.heads.4",
+      "blocks.3.attn.heads.5",
+      "blocks.3.attn.heads.6",
+      "blocks.3.attn.heads.7"
+    ],
+    "W": 8,
+    "scores": [
+      0.0006053431146573196,
+      0.35099430310904767,
+      0.1768841164625954
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.4",
+      "blocks.3.attn.heads.5",
+      "blocks.3.attn.heads.6",
+      "blocks.3.attn.heads.7",
+      "blocks.3.mlps.0",
+      "blocks.3.mlps.1",
+      "blocks.3.mlps.2",
+      "blocks.3.mlps.3"
+    ],
+    "W": 8,
+    "scores": [
+      -0.0017475664076829212,
+      0.1467880764683983,
+      0.17475575715459868
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.0",
+      "blocks.3.mlps.1",
+      "blocks.3.mlps.2",
+      "blocks.3.mlps.3",
+      "blocks.4.attn.heads.0",
+      "blocks.4.attn.heads.1",
+      "blocks.4.attn.heads.2",
+      "blocks.4.attn.heads.3"
+    ],
+    "W": 8,
+    "scores": [
+      -0.002298447648124924,
+      0.19307784443450193,
+      0.20865885830474618
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.0",
+      "blocks.4.attn.heads.1",
+      "blocks.4.attn.heads.2",
+      "blocks.4.attn.heads.3",
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.5",
+      "blocks.4.attn.heads.6",
+      "blocks.4.attn.heads.7"
+    ],
+    "W": 8,
+    "scores": [
+      -0.00020500993356131758,
+      0.0604840187404273,
+      0.11800539830705625
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.5",
+      "blocks.4.attn.heads.6",
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.0",
+      "blocks.4.mlps.1",
+      "blocks.4.mlps.2",
+      "blocks.4.mlps.3"
+    ],
+    "W": 8,
+    "scores": [
+      4.278906597632304e-05,
+      0.412787952738373,
+      0.13620706181059639
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.0",
+      "blocks.4.mlps.1",
+      "blocks.4.mlps.2",
+      "blocks.4.mlps.3",
+      "blocks.5.attn.heads.0",
+      "blocks.5.attn.heads.1",
+      "blocks.5.attn.heads.2",
+      "blocks.5.attn.heads.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.00013370689202574226,
+      0.4089261138408169,
+      0.07941122725829652
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.0",
+      "blocks.5.attn.heads.1",
+      "blocks.5.attn.heads.2",
+      "blocks.5.attn.heads.3",
+      "blocks.5.attn.heads.4",
+      "blocks.5.attn.heads.5",
+      "blocks.5.attn.heads.6",
+      "blocks.5.attn.heads.7"
+    ],
+    "W": 8,
+    "scores": [
+      0.0008409558393178695,
+      0.03363814305968427,
+      -0.03052317109324365
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.4",
+      "blocks.5.attn.heads.5",
+      "blocks.5.attn.heads.6",
+      "blocks.5.attn.heads.7",
+      "blocks.5.mlps.0",
+      "blocks.5.mlps.1",
+      "blocks.5.mlps.2",
+      "blocks.5.mlps.3"
+    ],
+    "W": 8,
+    "scores": [
+      0.0025772603915418246,
+      0.4955087699764258,
+      -0.012670027915628435
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.0",
+      "blocks.0.attn.heads.1",
+      "blocks.0.attn.heads.2",
+      "blocks.0.attn.heads.3"
+    ],
+    "W": 4,
+    "scores": [
+      -0.004454630985861963,
+      0.0025334508692339552,
+      0.040825015725308056
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.2",
+      "blocks.0.attn.heads.3",
+      "blocks.0.attn.heads.4",
+      "blocks.0.attn.heads.5"
+    ],
+    "W": 4,
+    "scores": [
+      1.0003099969249638,
+      0.0027265810123203726,
+      0.05649699809380615
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.4",
+      "blocks.0.attn.heads.5",
+      "blocks.0.attn.heads.6",
+      "blocks.0.attn.heads.7"
+    ],
+    "W": 4,
+    "scores": [
+      1.0044457310769381,
+      0.0015577303784084506,
+      0.06779540398737449
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.6",
+      "blocks.0.attn.heads.7",
+      "blocks.0.mlps.0",
+      "blocks.0.mlps.1"
+    ],
+    "W": 4,
+    "scores": [
+      0.21643349647223242,
+      0.0005519169749924613,
+      0.03662426720747758
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.0",
+      "blocks.0.mlps.1",
+      "blocks.0.mlps.2",
+      "blocks.0.mlps.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.21089372202953616,
+      0.0005703103219529826,
+      0.0062437587616851475
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.2",
+      "blocks.0.mlps.3",
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1"
+    ],
+    "W": 4,
+    "scores": [
+      0.07686800976667874,
+      -0.00015913722270033404,
+      0.1837642559885433
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.07882736422648484,
+      -0.00013335161287897357,
+      0.19265239883241647
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3",
+      "blocks.1.attn.heads.4",
+      "blocks.1.attn.heads.5"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0018315010874545568,
+      0.00023166319341860753,
+      0.18600453014408957
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.4",
+      "blocks.1.attn.heads.5",
+      "blocks.1.attn.heads.6",
+      "blocks.1.attn.heads.7"
+    ],
+    "W": 4,
+    "scores": [
+      0.06516997320016349,
+      0.00011036023434918274,
+      0.4002296752824044
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.6",
+      "blocks.1.attn.heads.7",
+      "blocks.1.mlps.0",
+      "blocks.1.mlps.1"
+    ],
+    "W": 4,
+    "scores": [
+      0.12024245362745745,
+      -0.00016460866135314944,
+      0.23703222529100898
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.0",
+      "blocks.1.mlps.1",
+      "blocks.1.mlps.2",
+      "blocks.1.mlps.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.05309008861046227,
+      0.0003250268912819987,
+      0.05748950408269771
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.2",
+      "blocks.1.mlps.3",
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.1"
+    ],
+    "W": 4,
+    "scores": [
+      -0.003292108286138351,
+      2.2118734373632876e-05,
+      0.20393546871629797
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.3"
+    ],
+    "W": 4,
+    "scores": [
+      -0.003184246061032292,
+      0.11452029611665981,
+      0.20992264689804896
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.3",
+      "blocks.2.attn.heads.4",
+      "blocks.2.attn.heads.5"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0002769979562202707,
+      0.11437242175604767,
+      0.0915580059984763
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.4",
+      "blocks.2.attn.heads.5",
+      "blocks.2.attn.heads.6",
+      "blocks.2.attn.heads.7"
+    ],
+    "W": 4,
+    "scores": [
+      0.008088400511387928,
+      0.8798996806085425,
+      0.09223299321490896
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.6",
+      "blocks.2.attn.heads.7",
+      "blocks.2.mlps.0",
+      "blocks.2.mlps.1"
+    ],
+    "W": 4,
+    "scores": [
+      0.1385143350990995,
+      0.8808205120924569,
+      -0.011050798780459337
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.0",
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2",
+      "blocks.2.mlps.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.1295901822359321,
+      0.5619326111508716,
+      0.062120269242392556
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.2",
+      "blocks.2.mlps.3",
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.1"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0021585108736934533,
+      0.5660773277922891,
+      0.19685532734501232
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.1",
+      "blocks.3.attn.heads.2",
+      "blocks.3.attn.heads.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.0001398000294643431,
+      0.351553815918095,
+      0.11874776257100572
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.2",
+      "blocks.3.attn.heads.3",
+      "blocks.3.attn.heads.4",
+      "blocks.3.attn.heads.5"
+    ],
+    "W": 4,
+    "scores": [
+      0.0002339698108883015,
+      0.34626478280651196,
+      0.050666323257190116
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.4",
+      "blocks.3.attn.heads.5",
+      "blocks.3.attn.heads.6",
+      "blocks.3.attn.heads.7"
+    ],
+    "W": 4,
+    "scores": [
+      0.0004627363137077456,
+      -3.864915874940422e-05,
+      0.04757813253300658
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.6",
+      "blocks.3.attn.heads.7",
+      "blocks.3.mlps.0",
+      "blocks.3.mlps.1"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0011871346877725397,
+      0.14763370477423332,
+      0.0367706817396285
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.0",
+      "blocks.3.mlps.1",
+      "blocks.3.mlps.2",
+      "blocks.3.mlps.3"
+    ],
+    "W": 4,
+    "scores": [
+      -0.001956786947146183,
+      0.14708106036689916,
+      0.12789811315735977
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.2",
+      "blocks.3.mlps.3",
+      "blocks.4.attn.heads.0",
+      "blocks.4.attn.heads.1"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0007228923847293345,
+      -0.0001267742451367404,
+      0.11828826530225578
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.0",
+      "blocks.4.attn.heads.1",
+      "blocks.4.attn.heads.2",
+      "blocks.4.attn.heads.3"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0003665807690107492,
+      0.04687241812842258,
+      0.07721064928650156
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.2",
+      "blocks.4.attn.heads.3",
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.5"
+    ],
+    "W": 4,
+    "scores": [
+      6.106847829201456e-05,
+      0.04681438595462595,
+      0.08215964298439293
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.5",
+      "blocks.4.attn.heads.6",
+      "blocks.4.attn.heads.7"
+    ],
+    "W": 4,
+    "scores": [
+      0.00015961984169421406,
+      0.01800528241641075,
+      0.037107921860081494
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.6",
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.0",
+      "blocks.4.mlps.1"
+    ],
+    "W": 4,
+    "scores": [
+      0.0013358692162090957,
+      0.017963751868763866,
+      -0.006431592662776486
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.0",
+      "blocks.4.mlps.1",
+      "blocks.4.mlps.2",
+      "blocks.4.mlps.3"
+    ],
+    "W": 4,
+    "scores": [
+      -0.0001862512857166987,
+      0.4045713943618501,
+      0.09937777396586644
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.2",
+      "blocks.4.mlps.3",
+      "blocks.5.attn.heads.0",
+      "blocks.5.attn.heads.1"
+    ],
+    "W": 4,
+    "scores": [
+      -0.001452699632987775,
+      0.409361820798645,
+      0.09911300599697515
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.0",
+      "blocks.5.attn.heads.1",
+      "blocks.5.attn.heads.2",
+      "blocks.5.attn.heads.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.00030075470494794754,
+      0.006607751841393283,
+      -0.017194176122029337
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.2",
+      "blocks.5.attn.heads.3",
+      "blocks.5.attn.heads.4",
+      "blocks.5.attn.heads.5"
+    ],
+    "W": 4,
+    "scores": [
+      0.00086563646905502,
+      0.00680780859298713,
+      -0.019338682600555712
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.4",
+      "blocks.5.attn.heads.5",
+      "blocks.5.attn.heads.6",
+      "blocks.5.attn.heads.7"
+    ],
+    "W": 4,
+    "scores": [
+      0.0005314039187738206,
+      0.024936634777457556,
+      -0.013742179759786533
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.6",
+      "blocks.5.attn.heads.7",
+      "blocks.5.mlps.0",
+      "blocks.5.mlps.1"
+    ],
+    "W": 4,
+    "scores": [
+      0.0012857206412232314,
+      0.015127189271427532,
+      -0.006821051262493549
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.0",
+      "blocks.5.mlps.1",
+      "blocks.5.mlps.2",
+      "blocks.5.mlps.3"
+    ],
+    "W": 4,
+    "scores": [
+      0.0021388968070579217,
+      0.48612302650429473,
+      -0.00017774535390824298
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.0",
+      "blocks.0.attn.heads.1"
+    ],
+    "W": 2,
+    "scores": [
+      -0.000405912313487633,
+      0.0006964444449393259,
+      0.018917741352224238
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.1",
+      "blocks.0.attn.heads.2"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0018920901507479826,
+      0.0004667022283141309,
+      0.016275435603895105
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.2",
+      "blocks.0.attn.heads.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.00404546653753024,
+      0.0013737969088023494,
+      0.03037751755598528
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.3",
+      "blocks.0.attn.heads.4"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0024016202112699947,
+      0.0010454523828375972,
+      0.049813032747968444
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.4",
+      "blocks.0.attn.heads.5"
+    ],
+    "W": 2,
+    "scores": [
+      1.0044241312470295,
+      0.0005699028743937351,
+      0.034127159250034955
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.5",
+      "blocks.0.attn.heads.6"
+    ],
+    "W": 2,
+    "scores": [
+      1.0044069129990993,
+      0.0006107640439075857,
+      0.02595679235705961
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.6",
+      "blocks.0.attn.heads.7"
+    ],
+    "W": 2,
+    "scores": [
+      0.0001308657099617916,
+      0.000637189928464843,
+      0.03655090784874404
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.7",
+      "blocks.0.mlps.0"
+    ],
+    "W": 2,
+    "scores": [
+      0.21625121581571383,
+      0.00024417765416717696,
+      0.018483466115934433
+    ],
+    "label": "TASK_SYNTAX"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.0",
+      "blocks.0.mlps.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.2165273924047828,
+      -0.00015331654328232247,
+      -0.006175113743748906
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.1",
+      "blocks.0.mlps.2"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0020744050383758594,
+      0.0002190323190817134,
+      -0.00011716177845122466
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.2",
+      "blocks.0.mlps.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.002296359550463478,
+      0.00017933528545155397,
+      -0.006182363493782539
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.3",
+      "blocks.1.attn.heads.0"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0008177810194467394,
+      -0.0001965641913574956,
+      0.1887855950941144
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.0",
+      "blocks.1.attn.heads.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.07930057508013988,
+      -0.00026053345816046125,
+      0.19493581660529669
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.2"
+    ],
+    "W": 2,
+    "scores": [
+      0.07977501825372635,
+      -3.3701581244161005e-05,
+      -0.002397030722643523
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.000493270104179766,
+      0.00010704244708104049,
+      -0.0017525127353739123
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.3",
+      "blocks.1.attn.heads.4"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0007897799721165999,
+      4.621634716373002e-05,
+      -0.0003991922640314005
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.4",
+      "blocks.1.attn.heads.5"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0013419962258176543,
+      0.00010226948995828433,
+      0.1881515968490266
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.5",
+      "blocks.1.attn.heads.6"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0008766242961706361,
+      0.00010151280163395171,
+      0.4003157343780852
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.6",
+      "blocks.1.attn.heads.7"
+    ],
+    "W": 2,
+    "scores": [
+      0.06668976598666343,
+      -1.891705552270473e-05,
+      0.17315868284995228
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.7",
+      "blocks.1.mlps.0"
+    ],
+    "W": 2,
+    "scores": [
+      0.12137386024891328,
+      -3.8765572337728926e-05,
+      -0.00983466588667925
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.0",
+      "blocks.1.mlps.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.05511218869344181,
+      -0.00012002225701190916,
+      0.06582083570544428
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.1",
+      "blocks.1.mlps.2"
+    ],
+    "W": 2,
+    "scores": [
+      -0.002454781123865768,
+      -0.00027729701488410363,
+      0.07105185988891582
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.2",
+      "blocks.1.mlps.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0018496778064425179,
+      4.2491112336340287e-05,
+      -0.009272480724968224
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.3",
+      "blocks.2.attn.heads.0"
+    ],
+    "W": 2,
+    "scores": [
+      -0.001945559143326836,
+      2.630962355454347e-05,
+      0.1258123651423938
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.1"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0014820356935767443,
+      -4.190873922338412e-05,
+      0.2117846159154685
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.1",
+      "blocks.2.attn.heads.2"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0012063383400369165,
+      0.11556013139127363,
+      0.06839834998144345
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.2",
+      "blocks.2.attn.heads.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0017050856011591176,
+      0.11569944935314147,
+      -0.0013340044379688276
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.3",
+      "blocks.2.attn.heads.4"
+    ],
+    "W": 2,
+    "scores": [
+      0.00023400404199747094,
+      5.529798032588573e-06,
+      -0.0011985912747500826
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.4",
+      "blocks.2.attn.heads.5"
+    ],
+    "W": 2,
+    "scores": [
+      0.0014279851310807778,
+      1.6880122897466876e-05,
+      0.0932306196566216
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.5",
+      "blocks.2.attn.heads.6"
+    ],
+    "W": 2,
+    "scores": [
+      0.00613688497558984,
+      0.28331916978943605,
+      0.09343832752996728
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.6",
+      "blocks.2.attn.heads.7"
+    ],
+    "W": 2,
+    "scores": [
+      0.006630326414785226,
+      0.8810754869543588,
+      -0.0008491837416531034
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.7",
+      "blocks.2.mlps.0"
+    ],
+    "W": 2,
+    "scores": [
+      0.00018861359119115573,
+      0.5182377075261624,
+      -0.00432409539770906
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.0",
+      "blocks.2.mlps.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.13205766328078272,
+      -8.876520853773329e-05,
+      -0.010133781447513979
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.1",
+      "blocks.2.mlps.2"
+    ],
+    "W": 2,
+    "scores": [
+      0.13004206710855215,
+      0.5630111175643682,
+      -0.011708903711848295
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.2",
+      "blocks.2.mlps.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0023377791926018077,
+      0.5624225304616284,
+      0.0739788830931174
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.3",
+      "blocks.3.attn.heads.0"
+    ],
+    "W": 2,
+    "scores": [
+      -0.00032098493154908425,
+      0.0018225130851294846,
+      0.13295633473250834
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.00016396719256328574,
+      0.0019018489455957521,
+      0.1201984476922775
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.1",
+      "blocks.3.attn.heads.2"
+    ],
+    "W": 2,
+    "scores": [
+      0.00015448517531346795,
+      0.18891093645280344,
+      0.062749273778541
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.2",
+      "blocks.3.attn.heads.3"
+    ],
+    "W": 2,
+    "scores": [
+      -2.375621031891484e-05,
+      0.3465150429180853,
+      -0.0010769171483089313
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.3",
+      "blocks.3.attn.heads.4"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0004957347440426307,
+      0.21134540651289846,
+      0.05909200302548134
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.4",
+      "blocks.3.attn.heads.5"
+    ],
+    "W": 2,
+    "scores": [
+      0.0002559119518888986,
+      -2.904503770984057e-05,
+      0.05195880666531205
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.5",
+      "blocks.3.attn.heads.6"
+    ],
+    "W": 2,
+    "scores": [
+      0.0006971851806554241,
+      -3.8183504396105405e-05,
+      -0.007029164716260805
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.6",
+      "blocks.3.attn.heads.7"
+    ],
+    "W": 2,
+    "scores": [
+      0.00020453105697171292,
+      -1.3154582898966538e-05,
+      -0.004082014583643767
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.7",
+      "blocks.3.mlps.0"
+    ],
+    "W": 2,
+    "scores": [
+      0.0004777295395397285,
+      -1.414409840005959e-05,
+      -0.004399077078128366
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.0",
+      "blocks.3.mlps.1"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0013291937909749585,
+      0.14781577562642578,
+      0.041492296913732796
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.1",
+      "blocks.3.mlps.2"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0021663497977013613,
+      0.14785590921101233,
+      0.04370519439082987
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.2",
+      "blocks.3.mlps.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0006312214742774103,
+      -0.0001047138701428807,
+      0.08271635281041423
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.3",
+      "blocks.4.attn.heads.0"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0004938862641454822,
+      -8.91144493027074e-05,
+      0.12054283616765882
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.0",
+      "blocks.4.attn.heads.1"
+    ],
+    "W": 2,
+    "scores": [
+      -0.00011374979641987082,
+      -2.3864633027947946e-05,
+      0.03386175756173504
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.1",
+      "blocks.4.attn.heads.2"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0002664547745849788,
+      1.920976793412521e-06,
+      0.03726756845348289
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.2",
+      "blocks.4.attn.heads.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0002557062062944482,
+      0.04691869252979497,
+      0.04067626910573363
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.3",
+      "blocks.4.attn.heads.4"
+    ],
+    "W": 2,
+    "scores": [
+      0.0005346216430390793,
+      0.04692605568925867,
+      -0.003838007262576326
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.5"
+    ],
+    "W": 2,
+    "scores": [
+      0.00031663793961922426,
+      -5.861408915297517e-05,
+      0.03947032642004311
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.5",
+      "blocks.4.attn.heads.6"
+    ],
+    "W": 2,
+    "scores": [
+      -0.00023133365654026683,
+      0.003052364439341204,
+      0.0433205013610648
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.6",
+      "blocks.4.attn.heads.7"
+    ],
+    "W": 2,
+    "scores": [
+      -0.00015753138509344566,
+      0.018018699082469003,
+      -0.0022264334578623313
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.0"
+    ],
+    "W": 2,
+    "scores": [
+      0.00018659395574804893,
+      0.010861708083786614,
+      -0.002543343859689129
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.0",
+      "blocks.4.mlps.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.001483850301303935,
+      -6.082594733181068e-05,
+      -0.004225944935713155
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.1",
+      "blocks.4.mlps.2"
+    ],
+    "W": 2,
+    "scores": [
+      0.0002300674644388767,
+      -0.0001221759083964713,
+      0.10315471629203643
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.2",
+      "blocks.4.mlps.3"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0016659594433372504,
+      0.4048812873340599,
+      0.10395533204401963
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.3",
+      "blocks.5.attn.heads.0"
+    ],
+    "W": 2,
+    "scores": [
+      -0.00040358459806166813,
+      0.4054074185466455,
+      -0.005626667618815029
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.0",
+      "blocks.5.attn.heads.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.00019703444405572146,
+      0.006695120239456176,
+      -0.00493408835160114
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.1",
+      "blocks.5.attn.heads.2"
+    ],
+    "W": 2,
+    "scores": [
+      4.2994452631561764e-05,
+      0.006672244969343821,
+      -0.011109607941572452
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.2",
+      "blocks.5.attn.heads.3"
+    ],
+    "W": 2,
+    "scores": [
+      0.00010204311601080818,
+      -8.760107265404216e-05,
+      -0.0123481998511914
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.3",
+      "blocks.5.attn.heads.4"
+    ],
+    "W": 2,
+    "scores": [
+      0.00019059899552509307,
+      -6.618097239630139e-05,
+      -0.005790522109089258
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.4",
+      "blocks.5.attn.heads.5"
+    ],
+    "W": 2,
+    "scores": [
+      0.000762600830346849,
+      0.0069000663617611036,
+      -0.0071612825385549694
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.5",
+      "blocks.5.attn.heads.6"
+    ],
+    "W": 2,
+    "scores": [
+      0.0005033001781161728,
+      0.006887144453453287,
+      -0.00821949255572485
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.6",
+      "blocks.5.attn.heads.7"
+    ],
+    "W": 2,
+    "scores": [
+      -0.0002314363498678862,
+      0.015231437639802392,
+      -0.006681176714638859
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.7",
+      "blocks.5.mlps.0"
+    ],
+    "W": 2,
+    "scores": [
+      0.0011159001084554143,
+      0.015203469275199333,
+      -0.002085037983427185
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.0",
+      "blocks.5.mlps.1"
+    ],
+    "W": 2,
+    "scores": [
+      0.0015640195590629347,
+      -0.00010401538861271042,
+      -0.0003437291413952437
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.1",
+      "blocks.5.mlps.2"
+    ],
+    "W": 2,
+    "scores": [
+      0.0002577946628952166,
+      -0.00010739138267501502,
+      0.0014144112881276927
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.2",
+      "blocks.5.mlps.3"
+    ],
+    "W": 2,
+    "scores": [
+      0.0005697427610837913,
+      0.4862612312612239,
+      -0.00018048302175333042
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.0"
+    ],
+    "W": 1,
+    "scores": [
+      -2.4986915023728073e-06,
+      0.000491440115840236,
+      0.014703203100063789
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.1"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00040543307795881667,
+      0.00017374743321030284,
+      0.004965014390340583
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0014866568933196156,
+      0.00024598206478665396,
+      0.019334627327943443
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0025220452534544524,
+      0.001002030114379937,
+      0.021506814670235408
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.4"
+    ],
+    "W": 1,
+    "scores": [
+      0.00011977483057923344,
+      3.655401933000402e-05,
+      0.02778849493552682
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.5"
+    ],
+    "W": 1,
+    "scores": [
+      1.004333863812055,
+      0.0004910908750751508,
+      0.007104146928282651
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.6"
+    ],
+    "W": 1,
+    "scores": [
+      0.00019135207992759806,
+      4.2491112336340287e-05,
+      0.0190203025013036
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.attn.heads.7"
+    ],
+    "W": 1,
+    "scores": [
+      -6.127350600793058e-05,
+      0.0005316610106180786,
+      0.019387302085182023
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.21634533425047398,
+      -0.000314200122393693,
+      -0.003513086647425556
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.1"
+    ],
+    "W": 1,
+    "scores": [
+      0.0002879522701051407,
+      0.00010424852096047044,
+      -0.004210025904170411
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0024208238635341495,
+      4.6580693890962976e-07,
+      -0.002586335384364924
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.0.mlps.3"
+    ],
+    "W": 1,
+    "scores": [
+      6.161617603928082e-05,
+      3.1433194711549817e-06,
+      -0.009375903732443236
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.0"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0008760423673142004,
+      -0.0001771813288957702,
+      0.1969138830183622
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.1"
+    ],
+    "W": 1,
+    "scores": [
+      0.08023597437028585,
+      -0.00010145428966867875,
+      -0.0016906110235468397
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0004583543727902928,
+      4.784613740083099e-05,
+      -0.0007204119578361201
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.3"
+    ],
+    "W": 1,
+    "scores": [
+      -3.477862748302307e-05,
+      6.001135738420427e-05,
+      -0.001049084191885541
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.4"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0007565415650783169,
+      -2.345718546870046e-05,
+      0.0006505005642876149
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.5"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0005854202501605066,
+      0.00011088409549686595,
+      0.18758981726773705
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.6"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00029188848872463424,
+      -2.0314018583045268e-05,
+      0.17381007035561058
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.attn.heads.7"
+    ],
+    "W": 1,
+    "scores": [
+      0.06693427879971736,
+      -4.714597743094018e-06,
+      -0.0005900178523332578
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.05764234689924752,
+      1.0302755155233712e-05,
+      -0.009185280934352003
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.1"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0022459028954946447,
+      -0.00030447958776580464,
+      0.0763771308228266
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0002171619773292388,
+      -4.9417415672659004e-05,
+      -0.005176980326509373
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.1.mlps.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0016448046178483278,
+      4.382986860240745e-05,
+      -0.004635783951609351
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.0"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0003202660782557487,
+      -2.2293049585009328e-05,
+      0.1307935010886866
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.1"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0011651240845536037,
+      -2.1478154466514354e-05,
+      0.06881934245893007
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.2"
+    ],
+    "W": 1,
+    "scores": [
+      -4.0392529392807575e-05,
+      0.11622008002367701,
+      -0.0003705988443176711
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0016657198255729533,
+      -1.7446779709828775e-07,
+      -0.0009612253330844034
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.4"
+    ],
+    "W": 1,
+    "scores": [
+      0.0018966090161023352,
+      3.841801001325251e-06,
+      -0.00029054740862988204
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.5"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0004669463812008168,
+      1.169971821557425e-05,
+      0.09368388112639148
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.6"
+    ],
+    "W": 1,
+    "scores": [
+      0.006613895482366683,
+      0.2835533502741173,
+      -0.00014413287647885298
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.attn.heads.7"
+    ],
+    "W": 1,
+    "scores": [
+      5.614081379334834e-06,
+      0.5185663067068516,
+      -0.0007205133529415431
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.00017324382315797582,
+      -5.087258552705087e-05,
+      -0.0035656600095588242
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.1"
+    ],
+    "W": 1,
+    "scores": [
+      0.13185227662555044,
+      -4.1384878075811926e-05,
+      -0.006820138706545409
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.001769405855355899,
+      0.563135985689581,
+      -0.005197462137793707
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.2.mlps.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0005752878418359142,
+      -8.64951435646244e-05,
+      0.08121494478768221
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.00024913419226624267,
+      0.0019138977519908007,
+      0.04992487154918901
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.1"
+    ],
+    "W": 1,
+    "scores": [
+      -8.588567352663112e-05,
+      -8.556246158919478e-06,
+      0.06531918342163767
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.2"
+    ],
+    "W": 1,
+    "scores": [
+      0.00024019987276369115,
+      0.18893919585137742,
+      -0.0020843282176896683
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00026618092571140117,
+      0.2113993642111025,
+      0.0009958522931698965
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.4"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00022958786997073766,
+      -1.6006715813698946e-05,
+      0.05802324791735325
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.5"
+    ],
+    "W": 1,
+    "scores": [
+      0.00048741694344489606,
+      -1.344561686988932e-05,
+      -0.005232595541803553
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.6"
+    ],
+    "W": 1,
+    "scores": [
+      0.00020880994562233468,
+      -2.6018284412510084e-05,
+      -0.0018455427445487338
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.attn.heads.7"
+    ],
+    "W": 1,
+    "scores": [
+      -4.586789163818494e-06,
+      1.2514613334069224e-05,
+      -0.0022535059509956046
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.000484849610254412,
+      -2.782269503209811e-05,
+      -0.002129753224894282
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.1"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0018158917016568576,
+      0.14814313063688944,
+      0.04391751574146974
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00035131369430518866,
+      -3.9405847073847866e-05,
+      8.669547310158343e-06
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.3.mlps.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0002809345337788649,
+      -6.72869014854971e-05,
+      0.08287569521849947
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.0"
+    ],
+    "W": 1,
+    "scores": [
+      -0.000211445382092057,
+      -2.2875117526854893e-05,
+      0.03594157396303699
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.1"
+    ],
+    "W": 1,
+    "scores": [
+      9.793538290614467e-05,
+      -1.3968104748407484e-06,
+      -0.0019456197135465647
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00036428728469384275,
+      2.735871911907495e-06,
+      0.039370857821677374
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.3"
+    ],
+    "W": 1,
+    "scores": [
+      0.0001072462446100042,
+      0.046956323222231755,
+      0.0010602888826310997
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.4"
+    ],
+    "W": 1,
+    "scores": [
+      0.0004277863512091029,
+      -3.0558414358505814e-05,
+      -0.004875380585593225
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.5"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00010953936998747693,
+      -2.8637590150593084e-05,
+      0.04467944926075518
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.6"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00012217064928443655,
+      0.0030748322618943114,
+      -0.001301507306698424
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.attn.heads.7"
+    ],
+    "W": 1,
+    "scores": [
+      -3.635325850659399e-05,
+      0.010891946513362671,
+      -0.000920565895832004
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.00021877119840107984,
+      -4.4877285726663274e-05,
+      -0.0016307879113799384
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.1"
+    ],
+    "W": 1,
+    "scores": [
+      0.0012660035223209798,
+      -1.7636506050688894e-05,
+      -0.002668871000134354
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.2"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0010348404829179092,
+      -0.00010634366037987064,
+      0.10616673394331244
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.4.mlps.3"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0006303314654381165,
+      0.4054867034761668,
+      -0.0021735559104132385
+    ],
+    "label": "TASK_ARITH"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.00022476164251206132,
+      -2.799731541469619e-05,
+      -0.003435620786924831
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.1"
+    ],
+    "W": 1,
+    "scores": [
+      -2.830894784322524e-05,
+      0.0067182865435395644,
+      -0.0015121556380996992
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.2"
+    ],
+    "W": 1,
+    "scores": [
+      7.017395334063536e-05,
+      -4.446983816741579e-05,
+      -0.009610734796474674
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.3"
+    ],
+    "W": 1,
+    "scores": [
+      3.207472879507289e-05,
+      -4.3480322666322735e-05,
+      -0.0027562735809611993
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.4"
+    ],
+    "W": 1,
+    "scores": [
+      0.00015866137063647034,
+      -2.2991531115179598e-05,
+      -0.003065984930306742
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.5"
+    ],
+    "W": 1,
+    "scores": [
+      0.0006043846435995759,
+      0.006918983569869308,
+      -0.00410533545787839
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.6"
+    ],
+    "W": 1,
+    "scores": [
+      -0.00010166621487028848,
+      -2.6658559148629024e-05,
+      -0.004152585576979728
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.attn.heads.7"
+    ],
+    "W": 1,
+    "scores": [
+      -0.0001306257332580607,
+      0.01526470282267578,
+      -0.0025523680240668867
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.0"
+    ],
+    "W": 1,
+    "scores": [
+      0.001243855994665144,
+      -5.680967853338714e-05,
+      0.0004437052468901914
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.1"
+    ],
+    "W": 1,
+    "scores": [
+      0.000317219868475771,
+      -5.0174103996880604e-05,
+      -0.0009171184622494
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.2"
+    ],
+    "W": 1,
+    "scores": [
+      -6.076003936983376e-05,
+      -5.9720018242392925e-05,
+      0.0022070675243396343
+    ],
+    "label": "TASK_RHYME"
+  },
+  {
+    "nodes": [
+      "blocks.5.mlps.3"
+    ],
+    "W": 1,
+    "scores": [
+      0.0006292364288826846,
+      0.4863600618503343,
+      -0.0023601736018423747
+    ],
+    "label": "TASK_ARITH"
+  }
+]

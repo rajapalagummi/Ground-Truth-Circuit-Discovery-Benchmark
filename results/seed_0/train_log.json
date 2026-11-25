@@ -1,0 +1,213 @@
+{
+  "lambda_off": 0.05,
+  "iit_weight": 1.0,
+  "max_steps": 6000,
+  "batch_size": 64,
+  "log": [
+    {
+      "step": 1,
+      "loss": 17.89659881591797,
+      "TASK_SYNTAX": 5.685055255889893,
+      "TASK_ARITH": 5.493253707885742,
+      "TASK_RHYME": 5.611172676086426,
+      "TASK_GENERAL": 1.1071157455444336,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.004000000189989805,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 500,
+      "loss": 1.7655842304229736,
+      "TASK_SYNTAX": 4.786996896655182e-07,
+      "TASK_ARITH": 1.347256064414978,
+      "TASK_RHYME": 1.7750991219145362e-06,
+      "TASK_GENERAL": 0.41832590103149414,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.0,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 1000,
+      "loss": 0.9732906818389893,
+      "TASK_SYNTAX": 0.0,
+      "TASK_ARITH": 0.5569019317626953,
+      "TASK_RHYME": 4.842872840526979e-07,
+      "TASK_GENERAL": 0.41638827323913574,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.0,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 1500,
+      "loss": 0.8453322649002075,
+      "TASK_SYNTAX": 1.0244546899684792e-07,
+      "TASK_ARITH": 0.4312431812286377,
+      "TASK_RHYME": 1.303851515643828e-08,
+      "TASK_GENERAL": 0.4140889644622803,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.0,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 2000,
+      "loss": 0.6267476677894592,
+      "TASK_SYNTAX": 7.841725278012746e-07,
+      "TASK_ARITH": 0.2098155915737152,
+      "TASK_RHYME": 0.0,
+      "TASK_GENERAL": 0.41693130135536194,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.0,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 2500,
+      "loss": 0.5256103873252869,
+      "TASK_SYNTAX": 0.0,
+      "TASK_ARITH": 0.11343441903591156,
+      "TASK_RHYME": 1.8626450382086546e-09,
+      "TASK_GENERAL": 0.4121759533882141,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.0,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 0.4378924071788788,
+      "TASK_SYNTAX": 1.8626450382086546e-09,
+      "TASK_ARITH": 0.025216680020093918,
+      "TASK_RHYME": 1.303851426825986e-08,
+      "TASK_GENERAL": 0.4126757085323334,
+      "val_acc": {
+        "TASK_SYNTAX": 0.0,
+        "TASK_ARITH": 0.0,
+        "TASK_RHYME": 0.0
+      }
+    },
+    {
+      "step": 3500,
+      "loss": 2.218351125717163,
+      "TASK_SYNTAX_penalty": 0.727168083190918,
+      "TASK_SYNTAX_iit": 1.5562363842036575e-05,
+      "TASK_SYNTAX": 0.03638342022895813,
+      "TASK_ARITH_penalty": 1.483402132987976,
+      "TASK_ARITH_iit": 1.1751635074615479,
+      "TASK_ARITH": 1.7487492561340332,
+      "TASK_RHYME_penalty": 0.36477914452552795,
+      "TASK_RHYME_iit": 4.4702686864184216e-05,
+      "TASK_RHYME": 0.018300071358680725,
+      "TASK_GENERAL": 0.4149184823036194,
+      "val_acc": {
+        "TASK_SYNTAX": 1.0,
+        "TASK_ARITH": 0.7360000014305115,
+        "TASK_RHYME": 1.0
+      }
+    },
+    {
+      "step": 4000,
+      "loss": 1.0019367933273315,
+      "TASK_SYNTAX_penalty": 0.2709777355194092,
+      "TASK_SYNTAX_iit": 3.725289587919178e-08,
+      "TASK_SYNTAX": 0.013548958115279675,
+      "TASK_ARITH_penalty": 0.7984392046928406,
+      "TASK_ARITH_iit": 0.3392992615699768,
+      "TASK_ARITH": 0.5705080032348633,
+      "TASK_RHYME_penalty": 0.13262984156608582,
+      "TASK_RHYME_iit": 2.2712934878654778e-05,
+      "TASK_RHYME": 0.006662050727754831,
+      "TASK_GENERAL": 0.41121774911880493,
+      "val_acc": {
+        "TASK_SYNTAX": 1.0,
+        "TASK_ARITH": 0.9639999866485596,
+        "TASK_RHYME": 1.0
+      }
+    },
+    {
+      "step": 4500,
+      "loss": 0.4564589560031891,
+      "TASK_SYNTAX_penalty": 0.13764233887195587,
+      "TASK_SYNTAX_iit": 1.7695040241960669e-06,
+      "TASK_SYNTAX": 0.006884985603392124,
+      "TASK_ARITH_penalty": 0.37668195366859436,
+      "TASK_ARITH_iit": 0.012706061825156212,
+      "TASK_ARITH": 0.03524509072303772,
+      "TASK_RHYME_penalty": 0.06268450617790222,
+      "TASK_RHYME_iit": 7.811914656485897e-06,
+      "TASK_RHYME": 0.0031450807582587004,
+      "TASK_GENERAL": 0.41118380427360535,
+      "val_acc": {
+        "TASK_SYNTAX": 1.0,
+        "TASK_ARITH": 1.0,
+        "TASK_RHYME": 1.0
+      }
+    },
+    {
+      "step": 5000,
+      "loss": 0.4161604642868042,
+      "TASK_SYNTAX_penalty": 0.029046155512332916,
+      "TASK_SYNTAX_iit": 2.4773157747404184e-07,
+      "TASK_SYNTAX": 0.0014527678722515702,
+      "TASK_ARITH_penalty": 0.06999673694372177,
+      "TASK_ARITH_iit": 0.0007053295848891139,
+      "TASK_ARITH": 0.004505338612943888,
+      "TASK_RHYME_penalty": 0.013916383497416973,
+      "TASK_RHYME_iit": 3.2894283776840894e-06,
+      "TASK_RHYME": 0.000700358476024121,
+      "TASK_GENERAL": 0.4095019996166229,
+      "val_acc": {
+        "TASK_SYNTAX": 1.0,
+        "TASK_ARITH": 1.0,
+        "TASK_RHYME": 1.0
+      }
+    },
+    {
+      "step": 5500,
+      "loss": 0.41151633858680725,
+      "TASK_SYNTAX_penalty": 0.009719080291688442,
+      "TASK_SYNTAX_iit": 1.1939436035390827e-06,
+      "TASK_SYNTAX": 0.0004877216706518084,
+      "TASK_ARITH_penalty": 0.026570860296487808,
+      "TASK_ARITH_iit": 0.00012138921010773629,
+      "TASK_ARITH": 0.001500417129136622,
+      "TASK_RHYME_penalty": 0.0038872654549777508,
+      "TASK_RHYME_iit": 2.3599698124598945e-06,
+      "TASK_RHYME": 0.00019753164087887853,
+      "TASK_GENERAL": 0.40933066606521606,
+      "val_acc": {
+        "TASK_SYNTAX": 1.0,
+        "TASK_ARITH": 1.0,
+        "TASK_RHYME": 1.0
+      }
+    },
+    {
+      "step": 6000,
+      "loss": 0.40997010469436646,
+      "TASK_SYNTAX_penalty": 0.007605008780956268,
+      "TASK_SYNTAX_iit": 9.20142952054448e-07,
+      "TASK_SYNTAX": 0.0003819845733232796,
+      "TASK_ARITH_penalty": 0.022474540397524834,
+      "TASK_ARITH_iit": 0.00011074969370383769,
+      "TASK_ARITH": 0.001280065393075347,
+      "TASK_RHYME_penalty": 0.002927956636995077,
+      "TASK_RHYME_iit": 2.22399694393971e-06,
+      "TASK_RHYME": 0.00014945816656108946,
+      "TASK_GENERAL": 0.4081586003303528,
+      "val_acc": {
+        "TASK_SYNTAX": 1.0,
+        "TASK_ARITH": 1.0,
+        "TASK_RHYME": 1.0
+      }
+    }
+  ]
+}

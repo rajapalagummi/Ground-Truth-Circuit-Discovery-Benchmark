@@ -1,0 +1,13 @@
+{
+  "seeds": [0, 1, 2],
+  "n_eval_samples": 200,
+  "hub_fraction": 0.12,
+  "gate_keep_min": 0.9,
+  "gate_remove_max": 0.1,
+  "acdc_tau": 0.03,
+  "grad_target_faithfulness": 0.85,
+  "knn_windows": [8, 4, 2, 1],
+  "knn_clusters": 4,
+  "knn_neighbors": 5,
+  "knn_prune": 0.05
+}
