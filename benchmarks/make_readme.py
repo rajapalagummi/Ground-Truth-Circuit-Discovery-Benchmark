@@ -155,6 +155,7 @@ Each task shows keep / remove faithfulness, then individually needed nodes / pla
 1. **Node-level granularity only.** Heads and MLP modules are scored as nodes; edges between nodes are not scored, so Greedy-ACDC here is a node-level variant of ACDC.
 2. **Whole-circuit gate vs individual redundancy.** The gate guarantees that the planted set is sufficient and necessary as a whole. Training then compresses the computation onto a subset of the planted nodes, leaving redundant slack nodes that cap the raw recall any minimal method can reach.
 3. **OR-pair nuance in effective recall and effective F1.** `needed_nodes` tests necessity by single-node ablation. Two redundant nodes where either one alone sustains the task both look individually unneeded, so effective recall and effective F1 can flatter a method that recovers only one node of such a pair. Precision stays anchored to all planted nodes to limit this.
+4. **Ablation bias in effective metrics.** `needed_nodes` is defined by a single-node ablation drop of at least 0.05, and Greedy-ACDC keeps a node when its removal drops faithfulness by at least 0.03. Effective recall and effective F1 therefore partly share ACDC's own selection criterion and favour ablation-based methods; raw recall and raw F1 do not have this bias.
 
 ## Run it
 

@@ -6,7 +6,7 @@ from model.skeletal_transformer import SkeletalTransformer, build_model
 
 
 def make() -> tuple[SkeletalTransformer, Tensor]:
-    torch.manual_seed(0)
+    torch.default_generator.manual_seed(0)
     model = build_model(241)
     model.eval()
     return model, torch.randint(1, 241, (4, 12))

@@ -6,7 +6,6 @@ from typing import Any
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import ListedColormap
-from matplotlib.figure import Figure
 from matplotlib.patches import Patch
 from numpy.typing import NDArray
 
@@ -41,13 +40,13 @@ def label(t: str) -> str:
     return t[5:].title()
 
 
-def axes3d(fig: Figure) -> Any:
-    return fig.add_subplot(projection="3d")
+def subplots(nrows: int, ncols: int, **kwargs: Any) -> tuple[Any, Any]:
+    return plt.subplots(nrows, ncols, **kwargs)
 
 
 def f1_comparison(table: dict[str, Any]) -> None:
     s = table["summary"]
-    fig, axes = plt.subplots(1, 4, figsize=(19, 4.6), sharey=True)
+    fig, axes = subplots(1, 4, figsize=(19, 4.6), sharey=True)
     x, w = np.arange(len(SPECIALIST)), 0.26
     for ax, metric in zip(axes, ["precision", "recall", "f1", "effective_f1"], strict=True):
         for i, m in enumerate(METHODS):
@@ -81,7 +80,7 @@ def circuit_heatmap(seed: int) -> None:
     preds: dict[str, Any] = json.loads((RESULTS / f"seed_{seed}" / "predictions.json").read_text())
     cmap = ListedColormap([EMPTY, "#1baf7a", "#eb6834", "#6b6a64"])
     cols = ["Ground truth", *METHODS]
-    fig, axes = plt.subplots(len(SPECIALIST), len(cols), figsize=(17, 8))
+    fig, axes = subplots(len(SPECIALIST), len(cols), figsize=(17, 8))
     ticks = [f"H{h}" for h in range(MODEL["n_heads"])] + [f"M{m}" for m in range(MODEL["mlp_modules_per_layer"])]
     for r, t in enumerate(SPECIALIST):
         gt = set[str](layout["circuits"][t])
@@ -118,8 +117,7 @@ def circuit_heatmap(seed: int) -> None:
 
 def knn_clusters(seed: int) -> None:
     records: list[dict[str, Any]] = json.loads((RESULTS / f"seed_{seed}" / "knn_windows.json").read_text())
-    fig = plt.figure(figsize=(8, 7))
-    ax = axes3d(fig)
+    fig, ax = subplots(1, 1, figsize=(8, 7), subplot_kw={"projection": "3d"})
     for name, color in CLUSTER_COLORS.items():
         pts = [r for r in records if r["label"] == name]
         if pts:

@@ -2,7 +2,7 @@ import argparse
 import json
 import math
 from pathlib import Path
-from typing import Any
+from typing import Any, Protocol, cast
 
 import torch
 import torch.nn.functional as F
@@ -15,6 +15,14 @@ from model.skeletal_transformer import CONFIG, SkeletalTransformer, build_model
 ROOT = Path(__file__).resolve().parent.parent
 TRAIN_CONFIG: dict[str, Any] = json.loads((ROOT / "configs" / "train_config.json").read_text())
 BENCH_CONFIG: dict[str, Any] = json.loads((ROOT / "configs" / "benchmark_config.json").read_text())
+
+
+class Differentiable(Protocol):
+    def backward(self) -> None: ...
+
+
+class Steppable(Protocol):
+    def step(self) -> None: ...
 
 
 def make_layout(seed: int, model: SkeletalTransformer) -> dict[str, Any]:
@@ -46,7 +54,7 @@ def train(
     seed: int, out_dir: Path, device: str, max_steps: int, batch_size: int, lambda_off: float, iit_weight: float
 ) -> tuple[SkeletalTransformer, dict[str, Any]]:
     cfg = TRAIN_CONFIG
-    torch.manual_seed(seed)
+    torch.default_generator.manual_seed(seed)
     vocab_size = len(load_vocab())
     model = build_model(vocab_size).to(device)
     layout = make_layout(seed, model)
@@ -108,9 +116,9 @@ def train(
             parts[t] = float(loss.item())
             total = total + loss
         opt.zero_grad()
-        total.backward()
+        cast(Differentiable, total).backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-        opt.step()
+        cast(Steppable, opt).step()
         sched.step()
         if step % cfg["eval_every"] == 0 or step == max_steps or step == 1:
             model.eval()

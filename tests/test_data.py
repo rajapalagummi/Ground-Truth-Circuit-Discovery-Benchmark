@@ -25,12 +25,10 @@ def test_targets_differ_and_lengths_match() -> None:
 def test_arithmetic_is_correct() -> None:
     vocab = load_vocab()
     d = load_split("test")["TASK_ARITH"]
-    rows: list[list[int]] = d["clean_ids"].tolist()
-    positions: list[int] = d["target_pos"].tolist()
-    targets: list[int] = d["clean_target_id"].tolist()
-    for row, pos, target in zip(rows, positions, targets, strict=True):
-        a, _, b, _ = [vocab[i] for i in row[: pos + 1]]
-        assert int(a) + int(b) == int(vocab[target])
+    for k in range(len(d["target_pos"])):
+        pos = int(d["target_pos"][k])
+        a, _, b, _ = [vocab[int(d["clean_ids"][k, j])] for j in range(pos + 1)]
+        assert int(a) + int(b) == int(vocab[int(d["clean_target_id"][k])])
 
 
 def test_rhyme_pairs_are_held_out() -> None:
@@ -43,9 +41,8 @@ def test_rhyme_pairs_are_held_out() -> None:
 def test_rhyme_target_is_the_last_rime() -> None:
     vocab = load_vocab()
     d = load_split("test")["TASK_RHYME"]
-    rows: list[list[int]] = d["clean_ids"][:50].tolist()
-    positions: list[int] = d["target_pos"][:50].tolist()
-    targets: list[int] = d["clean_target_id"][:50].tolist()
-    for row, pos, target in zip(rows, positions, targets, strict=True):
-        words = [vocab[i] for i in row[: pos + 1]]
-        assert words[-3] == vocab[target] and words[3] != vocab[target]
+    for k in range(50):
+        pos = int(d["target_pos"][k])
+        words = [vocab[int(d["clean_ids"][k, j])] for j in range(pos + 1)]
+        target = vocab[int(d["clean_target_id"][k])]
+        assert words[-3] == target and words[3] != target

@@ -58,7 +58,7 @@ def train_and_gate(
     else:
         lam = TRAIN_CONFIG["lambda_off"]
         model, layout = train(seed, out_dir, device, max_steps, batch_size, lam, TRAIN_CONFIG["iit_weight"])
-    attempts = [{"lambda_off": lam, **gate(model, layout, device)}]
+    attempts: list[dict[str, Any]] = [{"lambda_off": lam, **gate(model, layout, device)}]
     report(seed, attempts[-1])
     if not attempts[-1]["passed"]:
         lam = TRAIN_CONFIG["lambda_off_retry"]

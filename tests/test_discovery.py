@@ -13,7 +13,7 @@ from model.skeletal_transformer import build_model
 def bench() -> CircuitBench:
     if not (OUT / "task_3.pt").exists():
         build()
-    torch.manual_seed(0)
+    torch.default_generator.manual_seed(0)
     model = build_model(241)
     model.eval()
     data = {t: {k: v[:16] for k, v in d.items()} for t, d in load_split("test").items() if t in SPECIALIST}
