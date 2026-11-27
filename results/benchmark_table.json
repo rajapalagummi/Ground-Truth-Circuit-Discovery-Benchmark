@@ -16,6 +16,7 @@
     "hub_fraction": 0.12,
     "gate_keep_min": 0.9,
     "gate_remove_max": 0.1,
+    "needed_drop": 0.05,
     "acdc_tau": 0.03,
     "grad_target_faithfulness": 0.85,
     "knn_windows": [
@@ -29,108 +30,6 @@
     "knn_prune": 0.05
   },
   "summary": {
-    "Group-KNN": {
-      "tasks": {
-        "TASK_SYNTAX": {
-          "precision": {
-            "mean": 1.0,
-            "std": 0.0
-          },
-          "recall": {
-            "mean": 0.1084967320261438,
-            "std": 0.07934112891761318
-          },
-          "f1": {
-            "mean": 0.1898148148148148,
-            "std": 0.12448453388656255
-          },
-          "faithfulness": {
-            "mean": 0.43391111016532163,
-            "std": 0.279000836792714
-          },
-          "minimality": {
-            "mean": 0.9814814814814815,
-            "std": 0.008018753738744838
-          },
-          "size": {
-            "mean": 1.3333333333333333,
-            "std": 0.5773502691896257
-          }
-        },
-        "TASK_ARITH": {
-          "precision": {
-            "mean": 1.0,
-            "std": 0.0
-          },
-          "recall": {
-            "mean": 0.5111111111111111,
-            "std": 0.01924500897298752
-          },
-          "f1": {
-            "mean": 0.6763285024154589,
-            "std": 0.016734790411293575
-          },
-          "faithfulness": {
-            "mean": 0.7056818749201926,
-            "std": 0.04586440611338384
-          },
-          "minimality": {
-            "mean": 0.898148148148148,
-            "std": 0.016037507477489613
-          },
-          "size": {
-            "mean": 7.333333333333333,
-            "std": 1.1547005383792517
-          }
-        },
-        "TASK_RHYME": {
-          "precision": {
-            "mean": 1.0,
-            "std": 0.0
-          },
-          "recall": {
-            "mean": 0.2429050567595459,
-            "std": 0.12188887156626305
-          },
-          "f1": {
-            "mean": 0.3805453805453805,
-            "std": 0.15812005097670578
-          },
-          "faithfulness": {
-            "mean": 0.5206555012572571,
-            "std": 0.2018509149203337
-          },
-          "minimality": {
-            "mean": 0.9398148148148149,
-            "std": 0.034952937200327536
-          },
-          "size": {
-            "mean": 4.333333333333333,
-            "std": 2.516611478423583
-          }
-        }
-      },
-      "mean_f1": {
-        "mean": 0.4155628992585514,
-        "std": 0.08756343186604125
-      },
-      "runtime_s": {
-        "mean": 19.99731343066863,
-        "std": 0.9509207890905755
-      },
-      "forward_passes": {
-        "mean": 195.0,
-        "std": 0.0
-      },
-      "hub_recovery": {
-        "mean": 0.0,
-        "std": 0.0
-      },
-      "cross_task_leakage": {
-        "mean": 0.0,
-        "std": 0.0
-      }
-    },
     "Greedy-ACDC": {
       "tasks": {
         "TASK_SYNTAX": {
@@ -139,24 +38,32 @@
             "std": 0.0
           },
           "recall": {
-            "mean": 0.5738562091503269,
-            "std": 0.03558341853285281
+            "mean": 0.6437908496732025,
+            "std": 0.1338274198002828
           },
           "f1": {
-            "mean": 0.728797638217928,
-            "std": 0.029075760067405337
+            "mean": 0.7777777777777777,
+            "std": 0.1018350154434631
+          },
+          "effective_recall": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "effective_f1": {
+            "mean": 1.0,
+            "std": 0.0
           },
           "faithfulness": {
-            "mean": 1.0644931907990174,
-            "std": 0.0516459754605666
+            "mean": 1.2759141392199351,
+            "std": 0.35853684351917153
           },
           "minimality": {
-            "mean": 0.8888888888888888,
-            "std": 0.027777777777777735
+            "mean": 0.8703703703703703,
+            "std": 0.05613127617121364
           },
           "size": {
-            "mean": 8.0,
-            "std": 2.0
+            "mean": 9.333333333333334,
+            "std": 4.041451884327381
           }
         },
         "TASK_ARITH": {
@@ -165,24 +72,32 @@
             "std": 0.0
           },
           "recall": {
-            "mean": 0.7083333333333334,
-            "std": 0.11023963796102464
+            "mean": 0.7138888888888889,
+            "std": 0.19118296452855293
           },
           "f1": {
-            "mean": 0.8261072261072262,
-            "std": 0.07349425230373349
+            "mean": 0.8238633719577458,
+            "std": 0.12374013265702424
+          },
+          "effective_recall": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "effective_f1": {
+            "mean": 1.0,
+            "std": 0.0
           },
           "faithfulness": {
-            "mean": 0.9467444766452174,
-            "std": 0.021044634213038958
+            "mean": 0.9618045739481772,
+            "std": 0.021639046059007093
           },
           "minimality": {
-            "mean": 0.8611111111111112,
-            "std": 0.0
+            "mean": 0.8564814814814815,
+            "std": 0.04877617478172564
           },
           "size": {
-            "mean": 10.0,
-            "std": 0.0
+            "mean": 10.333333333333334,
+            "std": 3.511884584284246
           }
         },
         "TASK_RHYME": {
@@ -191,42 +106,54 @@
             "std": 0.0
           },
           "recall": {
-            "mean": 0.6977554179566564,
-            "std": 0.28177281522391096
+            "mean": 0.6484133126934984,
+            "std": 0.19548850877785925
           },
           "f1": {
-            "mean": 0.7977082654502009,
-            "std": 0.21942811685887237
+            "mean": 0.7748071528751753,
+            "std": 0.15083953721751128
+          },
+          "effective_recall": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "effective_f1": {
+            "mean": 1.0,
+            "std": 0.0
           },
           "faithfulness": {
-            "mean": 1.0243622897686937,
-            "std": 0.024694584028498157
+            "mean": 0.991184897415719,
+            "std": 0.006872951872490528
           },
           "minimality": {
-            "mean": 0.8287037037037036,
-            "std": 0.07897556532051843
+            "mean": 0.8425925925925926,
+            "std": 0.05258248468333587
           },
           "size": {
-            "mean": 12.333333333333334,
-            "std": 5.686240703077327
+            "mean": 11.333333333333334,
+            "std": 3.7859388972001824
           }
         }
       },
       "mean_f1": {
-        "mean": 0.7842043765917851,
-        "std": 0.07726170027318001
+        "mean": 0.7921494342035663,
+        "std": 0.03696534870334242
+      },
+      "mean_effective_f1": {
+        "mean": 1.0,
+        "std": 0.0
       },
       "runtime_s": {
-        "mean": 5.945487763994606,
-        "std": 0.7721343130740004
+        "mean": 5.66931416701603,
+        "std": 0.838366574311227
       },
       "forward_passes": {
         "mean": 219.0,
         "std": 0.0
       },
       "hub_recovery": {
-        "mean": 0.46666666666666673,
-        "std": 0.3055050463303894
+        "mean": 0.26666666666666666,
+        "std": 0.11547005383792516
       },
       "cross_task_leakage": {
         "mean": 0.0,
@@ -241,50 +168,66 @@
             "std": 0.0
           },
           "recall": {
-            "mean": 0.40392156862745104,
-            "std": 0.00679235610811322
+            "mean": 0.4542483660130719,
+            "std": 0.13359739326948672
           },
           "f1": {
-            "mean": 0.5753968253968255,
-            "std": 0.006873217490352663
+            "mean": 0.6164994425863992,
+            "std": 0.13421056450520802
+          },
+          "effective_recall": {
+            "mean": 0.8233618233618234,
+            "std": 0.15883031184918922
+          },
+          "effective_f1": {
+            "mean": 0.8977272727272728,
+            "std": 0.09301537240764149
           },
           "faithfulness": {
-            "mean": 0.8695582532226953,
-            "std": 0.011911615911260063
+            "mean": 0.9031620649617361,
+            "std": 0.03142789681900193
           },
           "minimality": {
-            "mean": 0.9212962962962963,
-            "std": 0.021215628217388132
+            "mean": 0.9074074074074074,
+            "std": 0.04464653130089334
           },
           "size": {
-            "mean": 5.666666666666667,
-            "std": 1.5275252316519465
+            "mean": 6.666666666666667,
+            "std": 3.2145502536643185
           }
         },
         "TASK_ARITH": {
           "precision": {
-            "mean": 0.9761904761904763,
-            "std": 0.041239304942116105
+            "mean": 0.8390804597701149,
+            "std": 0.27872081960878486
           },
           "recall": {
-            "mean": 0.8097222222222222,
-            "std": 0.05838291543606585
+            "mean": 0.7708333333333334,
+            "std": 0.2525907427704613
           },
           "f1": {
-            "mean": 0.8834154351395731,
-            "std": 0.022752719968064106
+            "mean": 0.7483455242075933,
+            "std": 0.1285737157283327
+          },
+          "effective_recall": {
+            "mean": 0.9523809523809524,
+            "std": 0.08247860988423228
+          },
+          "effective_f1": {
+            "mean": 0.8682983682983684,
+            "std": 0.16601335760441757
           },
           "faithfulness": {
-            "mean": 0.9357662798646627,
-            "std": 0.06415306658410147
+            "mean": 0.9555529254487988,
+            "std": 0.05104323453733968
           },
           "minimality": {
-            "mean": 0.8333333333333334,
-            "std": 0.036746545987008196
+            "mean": 0.7777777777777777,
+            "std": 0.16374758503543882
           },
           "size": {
-            "mean": 12.0,
-            "std": 2.6457513110645907
+            "mean": 16.0,
+            "std": 11.789826122551595
           }
         },
         "TASK_RHYME": {
@@ -293,42 +236,184 @@
             "std": 0.0
           },
           "recall": {
-            "mean": 0.5074819401444789,
-            "std": 0.22809104196415864
+            "mean": 0.4952915376676987,
+            "std": 0.16942337427414472
           },
           "f1": {
-            "mean": 0.6510802469135802,
-            "std": 0.22038220348975035
+            "mean": 0.6505199781061851,
+            "std": 0.15842954188109482
+          },
+          "effective_recall": {
+            "mean": 0.8628593628593628,
+            "std": 0.0405476052001216
+          },
+          "effective_f1": {
+            "mean": 0.9260461760461759,
+            "std": 0.023119004285731756
           },
           "faithfulness": {
-            "mean": 0.8778052120061902,
-            "std": 0.0021937818767705022
+            "mean": 0.8604861942805502,
+            "std": 0.008118719368302461
           },
           "minimality": {
-            "mean": 0.875,
-            "std": 0.06364688465216443
+            "mean": 0.8796296296296297,
+            "std": 0.04464653130089332
           },
           "size": {
-            "mean": 9.0,
-            "std": 4.58257569495584
+            "mean": 8.666666666666666,
+            "std": 3.214550253664318
           }
         }
       },
       "mean_f1": {
-        "mean": 0.7032975024833262,
-        "std": 0.06893407346315106
+        "mean": 0.6717883149667259,
+        "std": 0.05049223047316581
+      },
+      "mean_effective_f1": {
+        "mean": 0.8973572723572724,
+        "std": 0.09078455861212466
       },
       "runtime_s": {
-        "mean": 0.8046031246582667,
-        "std": 0.20115805462209338
+        "mean": 0.7656467080232687,
+        "std": 0.13324616823808402
       },
       "forward_passes": {
-        "mean": 29.666666666666668,
-        "std": 2.886751345948129
+        "mean": 34.333333333333336,
+        "std": 10.115993936995679
       },
       "hub_recovery": {
-        "mean": 0.13333333333333333,
-        "std": 0.11547005383792516
+        "mean": 0.06666666666666667,
+        "std": 0.11547005383792518
+      },
+      "cross_task_leakage": {
+        "mean": 0.02681992337164751,
+        "std": 0.04645346993479747
+      }
+    },
+    "Group-KNN": {
+      "tasks": {
+        "TASK_SYNTAX": {
+          "precision": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "recall": {
+            "mean": 0.25620915032679736,
+            "std": 0.06908345234888266
+          },
+          "f1": {
+            "mean": 0.4047619047619048,
+            "std": 0.08584645893961877
+          },
+          "effective_recall": {
+            "mean": 0.50997150997151,
+            "std": 0.18377724698427506
+          },
+          "effective_f1": {
+            "mean": 0.661624649859944,
+            "std": 0.1709032429812327
+          },
+          "faithfulness": {
+            "mean": 0.4943719839557456,
+            "std": 0.33122130976318853
+          },
+          "minimality": {
+            "mean": 0.9490740740740741,
+            "std": 0.021215628217388132
+          },
+          "size": {
+            "mean": 3.6666666666666665,
+            "std": 1.5275252316519465
+          }
+        },
+        "TASK_ARITH": {
+          "precision": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "recall": {
+            "mean": 0.5833333333333334,
+            "std": 0.08333333333333331
+          },
+          "f1": {
+            "mean": 0.7345029239766082,
+            "std": 0.06669743826612051
+          },
+          "effective_recall": {
+            "mean": 0.9629629629629629,
+            "std": 0.06415002990995845
+          },
+          "effective_f1": {
+            "mean": 0.9803921568627452,
+            "std": 0.03396178054056623
+          },
+          "faithfulness": {
+            "mean": 0.841453392963928,
+            "std": 0.1113004981314329
+          },
+          "minimality": {
+            "mean": 0.8842592592592592,
+            "std": 0.02121562821738812
+          },
+          "size": {
+            "mean": 8.333333333333334,
+            "std": 1.5275252316519468
+          }
+        },
+        "TASK_RHYME": {
+          "precision": {
+            "mean": 0.3333333333333333,
+            "std": 0.5773502691896258
+          },
+          "recall": {
+            "mean": 0.041666666666666664,
+            "std": 0.07216878364870323
+          },
+          "f1": {
+            "mean": 0.07407407407407407,
+            "std": 0.12830005981991682
+          },
+          "effective_recall": {
+            "mean": 0.1111111111111111,
+            "std": 0.19245008972987526
+          },
+          "effective_f1": {
+            "mean": 0.16666666666666666,
+            "std": 0.2886751345948129
+          },
+          "faithfulness": {
+            "mean": 0.20790460522958507,
+            "std": 0.3601013393851914
+          },
+          "minimality": {
+            "mean": 0.9907407407407408,
+            "std": 0.016037507477489613
+          },
+          "size": {
+            "mean": 0.6666666666666666,
+            "std": 1.1547005383792517
+          }
+        }
+      },
+      "mean_f1": {
+        "mean": 0.404446300937529,
+        "std": 0.06753743040823451
+      },
+      "mean_effective_f1": {
+        "mean": 0.6028944911297853,
+        "std": 0.04695227143861518
+      },
+      "runtime_s": {
+        "mean": 21.958482680667657,
+        "std": 4.86180161465021
+      },
+      "forward_passes": {
+        "mean": 195.0,
+        "std": 0.0
+      },
+      "hub_recovery": {
+        "mean": 0.0,
+        "std": 0.0
       },
       "cross_task_leakage": {
         "mean": 0.0,
@@ -342,321 +427,384 @@
   ],
   "per_seed": {
     "0": {
-      "Group-KNN": {
-        "runtime_s": 19.438308709010016,
-        "forward_passes": 195,
+      "Greedy-ACDC": {
         "tasks": {
           "TASK_SYNTAX": {
             "precision": 1.0,
-            "recall": 0.058823529411764705,
-            "f1": 0.1111111111111111,
-            "faithfulness": 0.12245811217654615,
-            "minimality": 0.9861111111111112,
-            "size": 1
+            "recall": 0.7647058823529411,
+            "f1": 0.8666666666666666,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 1.1985671277221286,
+            "minimality": 0.8194444444444444,
+            "size": 13.0
           },
           "TASK_ARITH": {
             "precision": 1.0,
-            "recall": 0.5333333333333333,
-            "f1": 0.6956521739130436,
-            "faithfulness": 0.6970807455463183,
-            "minimality": 0.8888888888888888,
-            "size": 8
+            "recall": 0.9333333333333333,
+            "f1": 0.9655172413793104,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9858969971300623,
+            "minimality": 0.8055555555555556,
+            "size": 14.0
           },
           "TASK_RHYME": {
             "precision": 1.0,
-            "recall": 0.125,
-            "f1": 0.2222222222222222,
-            "faithfulness": 0.7463896180444362,
-            "minimality": 0.9722222222222222,
-            "size": 2
+            "recall": 0.4375,
+            "f1": 0.6086956521739131,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9902092283900067,
+            "minimality": 0.9027777777777778,
+            "size": 7.0
           }
         },
-        "mean_f1": 0.34299516908212563,
-        "hub_recovery": 0.0,
+        "runtime_s": 5.303055458993185,
+        "forward_passes": 219.0,
+        "mean_f1": 0.8136265200732966,
+        "mean_effective_f1": 1.0,
+        "hub_recovery": 0.4,
         "cross_task_leakage": 0.0
       },
-      "Greedy-ACDC": {
-        "runtime_s": 6.7817560419789515,
-        "forward_passes": 219,
+      "Gradient-Attribution": {
         "tasks": {
           "TASK_SYNTAX": {
             "precision": 1.0,
-            "recall": 0.5882352941176471,
-            "f1": 0.7407407407407407,
-            "faithfulness": 1.0714991101916198,
-            "minimality": 0.8611111111111112,
-            "size": 10
+            "recall": 0.5294117647058824,
+            "f1": 0.6923076923076924,
+            "effective_recall": 0.6923076923076923,
+            "effective_f1": 0.8181818181818181,
+            "faithfulness": 0.9168955058117372,
+            "minimality": 0.875,
+            "size": 9.0
+          },
+          "TASK_ARITH": {
+            "precision": 0.5172413793103449,
+            "recall": 1.0,
+            "f1": 0.6818181818181819,
+            "effective_recall": 1.0,
+            "effective_f1": 0.6818181818181819,
+            "faithfulness": 1.0002020656740385,
+            "minimality": 0.5972222222222222,
+            "size": 29.0
+          },
+          "TASK_RHYME": {
+            "precision": 1.0,
+            "recall": 0.3125,
+            "f1": 0.47619047619047616,
+            "effective_recall": 0.8333333333333334,
+            "effective_f1": 0.9090909090909091,
+            "faithfulness": 0.8681273160695289,
+            "minimality": 0.9305555555555556,
+            "size": 5.0
+          }
+        },
+        "runtime_s": 0.9042893330333754,
+        "forward_passes": 46.0,
+        "mean_f1": 0.6167721167721169,
+        "mean_effective_f1": 0.8030303030303031,
+        "hub_recovery": 0.2,
+        "cross_task_leakage": 0.08045977011494253
+      },
+      "Group-KNN": {
+        "tasks": {
+          "TASK_SYNTAX": {
+            "precision": 1.0,
+            "recall": 0.23529411764705882,
+            "f1": 0.38095238095238093,
+            "effective_recall": 0.3076923076923077,
+            "effective_f1": 0.47058823529411764,
+            "faithfulness": 0.11780234793460606,
+            "minimality": 0.9444444444444444,
+            "size": 4.0
           },
           "TASK_ARITH": {
             "precision": 1.0,
             "recall": 0.6666666666666666,
             "f1": 0.8,
-            "faithfulness": 0.9263468188508237,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.8357509589353104,
             "minimality": 0.8611111111111112,
-            "size": 10
+            "size": 10.0
           },
           "TASK_RHYME": {
             "precision": 1.0,
-            "recall": 0.375,
-            "f1": 0.5454545454545454,
-            "faithfulness": 0.997251263079472,
-            "minimality": 0.9166666666666666,
-            "size": 6
-          }
-        },
-        "mean_f1": 0.695398428731762,
-        "hub_recovery": 0.4,
-        "cross_task_leakage": 0.0
-      },
-      "Gradient-Attribution": {
-        "runtime_s": 0.7660837499715853,
-        "forward_passes": 28,
-        "tasks": {
-          "TASK_SYNTAX": {
-            "precision": 1.0,
-            "recall": 0.4117647058823529,
-            "f1": 0.5833333333333334,
-            "faithfulness": 0.8676349978939462,
-            "minimality": 0.9027777777777778,
-            "size": 7
-          },
-          "TASK_ARITH": {
-            "precision": 0.9285714285714286,
-            "recall": 0.8666666666666667,
-            "f1": 0.896551724137931,
-            "faithfulness": 0.9749525988694326,
-            "minimality": 0.8055555555555556,
-            "size": 14
-          },
-          "TASK_RHYME": {
-            "precision": 1.0,
-            "recall": 0.25,
-            "f1": 0.4,
-            "faithfulness": 0.8761746610444592,
-            "minimality": 0.9444444444444444,
-            "size": 4
-          }
-        },
-        "mean_f1": 0.6266283524904215,
-        "hub_recovery": 0.2,
-        "cross_task_leakage": 0.0
-      },
-      "ground_truth_test_faithfulness": {
-        "TASK_SYNTAX": 1.144487827140319,
-        "TASK_ARITH": 1.0010211865364422,
-        "TASK_RHYME": 0.9950606546013196
-      }
-    },
-    "1": {
-      "Group-KNN": {
-        "runtime_s": 21.09528120799223,
-        "forward_passes": 195,
-        "tasks": {
-          "TASK_SYNTAX": {
-            "precision": 1.0,
-            "recall": 0.2,
-            "f1": 0.33333333333333337,
-            "faithfulness": 0.6609765148415847,
+            "recall": 0.125,
+            "f1": 0.2222222222222222,
+            "effective_recall": 0.3333333333333333,
+            "effective_f1": 0.5,
+            "faithfulness": 0.6237138156887552,
             "minimality": 0.9722222222222222,
-            "size": 2
-          },
-          "TASK_ARITH": {
-            "precision": 1.0,
-            "recall": 0.5,
-            "f1": 0.6666666666666666,
-            "faithfulness": 0.7552379274318546,
-            "minimality": 0.8888888888888888,
-            "size": 8
-          },
-          "TASK_RHYME": {
-            "precision": 1.0,
-            "recall": 0.3684210526315789,
-            "f1": 0.5384615384615384,
-            "faithfulness": 0.4580564569771171,
-            "minimality": 0.9027777777777778,
-            "size": 7
+            "size": 2.0
           }
         },
-        "mean_f1": 0.5128205128205128,
+        "runtime_s": 19.088352083985228,
+        "forward_passes": 195.0,
+        "mean_f1": 0.4677248677248677,
+        "mean_effective_f1": 0.6568627450980392,
         "hub_recovery": 0.0,
         "cross_task_leakage": 0.0
       },
+      "ground_truth_test_faithfulness": {
+        "TASK_SYNTAX": 1.236966995492657,
+        "TASK_ARITH": 1.0000929583481502,
+        "TASK_RHYME": 0.9938213989996085
+      }
+    },
+    "1": {
       "Greedy-ACDC": {
-        "runtime_s": 5.795090291998349,
-        "forward_passes": 219,
         "tasks": {
           "TASK_SYNTAX": {
             "precision": 1.0,
-            "recall": 0.6,
-            "f1": 0.7499999999999999,
-            "faithfulness": 1.0097018834848437,
-            "minimality": 0.9166666666666666,
-            "size": 6
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9623636423512433,
+            "minimality": 0.9305555555555556,
+            "size": 5.0
           },
           "TASK_ARITH": {
             "precision": 1.0,
             "recall": 0.625,
             "f1": 0.7692307692307693,
-            "faithfulness": 0.9455052857602267,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9440212312568887,
             "minimality": 0.8611111111111112,
-            "size": 10
-          },
-          "TASK_RHYME": {
-            "precision": 1.0,
-            "recall": 0.8947368421052632,
-            "f1": 0.9444444444444444,
-            "faithfulness": 1.0302649177598722,
-            "minimality": 0.7638888888888888,
-            "size": 17
-          }
-        },
-        "mean_f1": 0.8212250712250713,
-        "hub_recovery": 0.2,
-        "cross_task_leakage": 0.0
-      },
-      "Gradient-Attribution": {
-        "runtime_s": 1.0222355829901062,
-        "forward_passes": 33,
-        "tasks": {
-          "TASK_SYNTAX": {
-            "precision": 1.0,
-            "recall": 0.4,
-            "f1": 0.5714285714285715,
-            "faithfulness": 0.8823144733057469,
-            "minimality": 0.9444444444444444,
-            "size": 4
-          },
-          "TASK_ARITH": {
-            "precision": 1.0,
-            "recall": 0.8125,
-            "f1": 0.896551724137931,
-            "faithfulness": 0.9706152020113702,
-            "minimality": 0.8194444444444444,
-            "size": 13
+            "size": 10.0
           },
           "TASK_RHYME": {
             "precision": 1.0,
             "recall": 0.6842105263157895,
             "f1": 0.8125000000000001,
-            "faithfulness": 0.8769416019657216,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9848519167349367,
             "minimality": 0.8194444444444444,
-            "size": 13
+            "size": 13.0
           }
         },
-        "mean_f1": 0.7601600985221676,
-        "hub_recovery": 0.0,
+        "runtime_s": 5.076396208023652,
+        "forward_passes": 219.0,
+        "mean_f1": 0.7494658119658121,
+        "mean_effective_f1": 1.0,
+        "hub_recovery": 0.2,
         "cross_task_leakage": 0.0
       },
-      "ground_truth_test_faithfulness": {
-        "TASK_SYNTAX": 1.0152629667930204,
-        "TASK_ARITH": 1.0005166433525488,
-        "TASK_RHYME": 1.0325309969697345
-      }
-    },
-    "2": {
-      "Group-KNN": {
-        "runtime_s": 19.458350375003647,
-        "forward_passes": 195,
+      "Gradient-Attribution": {
         "tasks": {
           "TASK_SYNTAX": {
             "precision": 1.0,
-            "recall": 0.06666666666666667,
-            "f1": 0.125,
-            "faithfulness": 0.518298703477834,
-            "minimality": 0.9861111111111112,
-            "size": 1
+            "recall": 0.3,
+            "f1": 0.4615384615384615,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.8672048452237215,
+            "minimality": 0.9583333333333334,
+            "size": 3.0
+          },
+          "TASK_ARITH": {
+            "precision": 1.0,
+            "recall": 0.8125,
+            "f1": 0.896551724137931,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9665488070121997,
+            "minimality": 0.8194444444444444,
+            "size": 13.0
+          },
+          "TASK_RHYME": {
+            "precision": 1.0,
+            "recall": 0.5263157894736842,
+            "f1": 0.6896551724137931,
+            "effective_recall": 0.9090909090909091,
+            "effective_f1": 0.9523809523809523,
+            "faithfulness": 0.8519620658532464,
+            "minimality": 0.8611111111111112,
+            "size": 10.0
+          }
+        },
+        "runtime_s": 0.63854816602543,
+        "forward_passes": 29.0,
+        "mean_f1": 0.6825817860300619,
+        "mean_effective_f1": 0.9841269841269842,
+        "hub_recovery": 0.0,
+        "cross_task_leakage": 0.0
+      },
+      "Group-KNN": {
+        "tasks": {
+          "TASK_SYNTAX": {
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.33333333333333337,
+            "effective_recall": 0.6666666666666666,
+            "effective_f1": 0.8,
+            "faithfulness": 0.6247427452838313,
+            "minimality": 0.9722222222222222,
+            "size": 2.0
           },
           "TASK_ARITH": {
             "precision": 1.0,
             "recall": 0.5,
             "f1": 0.6666666666666666,
-            "faithfulness": 0.6647269517824052,
-            "minimality": 0.9166666666666666,
-            "size": 6
+            "effective_recall": 0.8888888888888888,
+            "effective_f1": 0.9411764705882353,
+            "faithfulness": 0.7331137264988928,
+            "minimality": 0.8888888888888888,
+            "size": 8.0
           },
           "TASK_RHYME": {
-            "precision": 1.0,
-            "recall": 0.23529411764705882,
-            "f1": 0.38095238095238093,
-            "faithfulness": 0.35752042875021817,
-            "minimality": 0.9444444444444444,
-            "size": 4
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "effective_recall": 0.0,
+            "effective_f1": 0.0,
+            "faithfulness": 0.0,
+            "minimality": 1.0,
+            "size": 0.0
           }
         },
-        "mean_f1": 0.3908730158730158,
+        "runtime_s": 19.215165791043546,
+        "forward_passes": 195.0,
+        "mean_f1": 0.3333333333333333,
+        "mean_effective_f1": 0.5803921568627451,
         "hub_recovery": 0.0,
         "cross_task_leakage": 0.0
       },
+      "ground_truth_test_faithfulness": {
+        "TASK_SYNTAX": 0.9999920358167385,
+        "TASK_ARITH": 1.0006929435564347,
+        "TASK_RHYME": 1.0624924169335284
+      }
+    },
+    "2": {
       "Greedy-ACDC": {
-        "runtime_s": 5.259616958006518,
-        "forward_passes": 219,
         "tasks": {
           "TASK_SYNTAX": {
             "precision": 1.0,
-            "recall": 0.5333333333333333,
-            "f1": 0.6956521739130436,
-            "faithfulness": 1.1122785787205884,
-            "minimality": 0.8888888888888888,
-            "size": 8
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 1.6668116475864332,
+            "minimality": 0.8611111111111112,
+            "size": 10.0
           },
           "TASK_ARITH": {
             "precision": 1.0,
-            "recall": 0.8333333333333334,
-            "f1": 0.9090909090909091,
-            "faithfulness": 0.968381325324602,
-            "minimality": 0.8611111111111112,
-            "size": 10
+            "recall": 0.5833333333333334,
+            "f1": 0.7368421052631579,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9554954934575808,
+            "minimality": 0.9027777777777778,
+            "size": 7.0
           },
           "TASK_RHYME": {
             "precision": 1.0,
             "recall": 0.8235294117647058,
             "f1": 0.9032258064516129,
-            "faithfulness": 1.0455706884667373,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9984935471222137,
             "minimality": 0.8055555555555556,
-            "size": 14
+            "size": 14.0
           }
         },
-        "mean_f1": 0.8359896298185219,
-        "hub_recovery": 0.8,
-        "cross_task_leakage": 0.0
-      },
-      "Gradient-Attribution": {
-        "runtime_s": 0.6254900410131086,
-        "forward_passes": 28,
-        "tasks": {
-          "TASK_SYNTAX": {
-            "precision": 1.0,
-            "recall": 0.4,
-            "f1": 0.5714285714285715,
-            "faithfulness": 0.8587252884683929,
-            "minimality": 0.9166666666666666,
-            "size": 6
-          },
-          "TASK_ARITH": {
-            "precision": 1.0,
-            "recall": 0.75,
-            "f1": 0.8571428571428571,
-            "faithfulness": 0.8617310387131851,
-            "minimality": 0.875,
-            "size": 9
-          },
-          "TASK_RHYME": {
-            "precision": 1.0,
-            "recall": 0.5882352941176471,
-            "f1": 0.7407407407407407,
-            "faithfulness": 0.8802993730083898,
-            "minimality": 0.8611111111111112,
-            "size": 10
-          }
-        },
-        "mean_f1": 0.7231040564373897,
+        "runtime_s": 6.628490834031254,
+        "forward_passes": 219.0,
+        "mean_f1": 0.8133559705715903,
+        "mean_effective_f1": 1.0,
         "hub_recovery": 0.2,
         "cross_task_leakage": 0.0
       },
+      "Gradient-Attribution": {
+        "tasks": {
+          "TASK_SYNTAX": {
+            "precision": 1.0,
+            "recall": 0.5333333333333333,
+            "f1": 0.6956521739130436,
+            "effective_recall": 0.7777777777777778,
+            "effective_f1": 0.8750000000000001,
+            "faithfulness": 0.9253858438497498,
+            "minimality": 0.8888888888888888,
+            "size": 8.0
+          },
+          "TASK_ARITH": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "effective_recall": 0.8571428571428571,
+            "effective_f1": 0.923076923076923,
+            "faithfulness": 0.8999079036601583,
+            "minimality": 0.9166666666666666,
+            "size": 6.0
+          },
+          "TASK_RHYME": {
+            "precision": 1.0,
+            "recall": 0.6470588235294118,
+            "f1": 0.7857142857142858,
+            "effective_recall": 0.8461538461538461,
+            "effective_f1": 0.9166666666666666,
+            "faithfulness": 0.8613692009188751,
+            "minimality": 0.8472222222222222,
+            "size": 11.0
+          }
+        },
+        "runtime_s": 0.7541026250110008,
+        "forward_passes": 28.0,
+        "mean_f1": 0.7160110420979987,
+        "mean_effective_f1": 0.9049145299145299,
+        "hub_recovery": 0.0,
+        "cross_task_leakage": 0.0
+      },
+      "Group-KNN": {
+        "tasks": {
+          "TASK_SYNTAX": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "effective_recall": 0.5555555555555556,
+            "effective_f1": 0.7142857142857143,
+            "faithfulness": 0.7405708586487993,
+            "minimality": 0.9305555555555556,
+            "size": 5.0
+          },
+          "TASK_ARITH": {
+            "precision": 1.0,
+            "recall": 0.5833333333333334,
+            "f1": 0.7368421052631579,
+            "effective_recall": 1.0,
+            "effective_f1": 1.0,
+            "faithfulness": 0.9554954934575808,
+            "minimality": 0.9027777777777778,
+            "size": 7.0
+          },
+          "TASK_RHYME": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "effective_recall": 0.0,
+            "effective_f1": 0.0,
+            "faithfulness": 0.0,
+            "minimality": 1.0,
+            "size": 0.0
+          }
+        },
+        "runtime_s": 27.571930166974198,
+        "forward_passes": 195.0,
+        "mean_f1": 0.41228070175438597,
+        "mean_effective_f1": 0.5714285714285715,
+        "hub_recovery": 0.0,
+        "cross_task_leakage": 0.0
+      },
       "ground_truth_test_faithfulness": {
-        "TASK_SYNTAX": 1.0357160700692731,
-        "TASK_ARITH": 0.9996066646003822,
-        "TASK_RHYME": 1.0817253578914814
+        "TASK_SYNTAX": 1.0545440586302892,
+        "TASK_ARITH": 0.9997411992150024,
+        "TASK_RHYME": 1.052456589938457
       }
     }
   }

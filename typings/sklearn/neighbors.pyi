@@ -1,0 +1,9 @@
+from typing import Any, Literal, Self
+
+import numpy as np
+from numpy.typing import NDArray
+
+class NearestNeighbors:
+    def __init__(self, *, n_neighbors: int = ..., metric: str = ...) -> None: ...
+    def fit(self, X: NDArray[Any]) -> Self: ...
+    def kneighbors(self, X: NDArray[Any], *, return_distance: Literal[False]) -> NDArray[np.intp]: ...

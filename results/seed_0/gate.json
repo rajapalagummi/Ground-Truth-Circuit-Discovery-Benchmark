@@ -2,22 +2,56 @@
   {
     "lambda_off": 0.05,
     "TASK_SYNTAX": {
-      "keep": 1.1492523694769934,
-      "remove": -0.000392279114846892,
+      "keep": 1.244354574432446,
+      "remove": -0.0006581066941496341,
       "gt_size": 17,
-      "gt_nodes_individually_necessary": 9
+      "gt_nodes_individually_necessary": 13,
+      "needed_nodes": [
+        "blocks.1.attn.heads.1",
+        "blocks.1.attn.heads.2",
+        "blocks.1.attn.heads.3",
+        "blocks.1.attn.heads.5",
+        "blocks.1.mlps.1",
+        "blocks.1.mlps.3",
+        "blocks.2.attn.heads.2",
+        "blocks.2.attn.heads.4",
+        "blocks.2.mlps.3",
+        "blocks.3.attn.heads.3",
+        "blocks.3.attn.heads.6",
+        "blocks.3.mlps.0",
+        "blocks.4.mlps.3"
+      ]
     },
     "TASK_ARITH": {
-      "keep": 1.0006054982788217,
-      "remove": 0.00011547091341530534,
+      "keep": 1.0002443753544266,
+      "remove": -6.642170166200403e-05,
       "gt_size": 15,
-      "gt_nodes_individually_necessary": 9
+      "gt_nodes_individually_necessary": 9,
+      "needed_nodes": [
+        "blocks.2.attn.heads.0",
+        "blocks.2.attn.heads.3",
+        "blocks.2.attn.heads.7",
+        "blocks.2.mlps.2",
+        "blocks.3.attn.heads.0",
+        "blocks.3.mlps.2",
+        "blocks.4.attn.heads.4",
+        "blocks.4.mlps.1",
+        "blocks.5.mlps.2"
+      ]
     },
     "TASK_RHYME": {
-      "keep": 0.9952616837791313,
-      "remove": -0.0012718295439839758,
+      "keep": 0.9952430181670842,
+      "remove": -0.0005701871816810625,
       "gt_size": 16,
-      "gt_nodes_individually_necessary": 6
+      "gt_nodes_individually_necessary": 6,
+      "needed_nodes": [
+        "blocks.0.attn.heads.3",
+        "blocks.0.attn.heads.6",
+        "blocks.1.mlps.1",
+        "blocks.1.mlps.3",
+        "blocks.2.mlps.1",
+        "blocks.3.mlps.1"
+      ]
     },
     "passed": true
   }

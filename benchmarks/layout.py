@@ -1,18 +1,19 @@
 import itertools
 import random
+from typing import Any
 
 from data.build_datasets import SPECIALIST
 
 
-def head(L, H):
+def head(L: int, H: int) -> str:
     return f"blocks.{L}.attn.heads.{H}"
 
 
-def mlp(L, M):
+def mlp(L: int, M: int) -> str:
     return f"blocks.{L}.mlps.{M}"
 
 
-def pick_noncontiguous(pool, k, rng):
+def pick_noncontiguous(pool: list[int], k: int, rng: random.Random) -> list[int]:
     for size in range(min(k, len(pool)), 0, -1):
         options = [c for c in itertools.combinations(sorted(pool), size) if size == 1 or c[-1] - c[0] != size - 1]
         if options:
@@ -20,12 +21,14 @@ def pick_noncontiguous(pool, k, rng):
     return []
 
 
-def generate_layout(seed, node_names, node_layers, n_layers, n_heads, n_mlps, hub_fraction):
+def generate_layout(
+    seed: int, node_names: list[str], node_layers: dict[str, int], n_layers: int, n_heads: int, n_mlps: int, hub_fraction: float
+) -> dict[str, Any]:
     rng = random.Random(seed)
-    spans = {}
-    for t, start in zip(SPECIALIST, rng.sample(range(3), 3)):
+    spans: dict[str, list[int]] = {}
+    for t, start in zip(SPECIALIST, rng.sample(range(3), 3), strict=True):
         spans[t] = list(range(start, min(start + rng.choice([3, 4]), n_layers)))
-    circuits = {t: set() for t in SPECIALIST}
+    circuits: dict[str, set[str]] = {t: set() for t in SPECIALIST}
     for L in range(n_layers):
         free_heads, free_mlps = list(range(n_heads)), list(range(n_mlps))
         for t in rng.sample(SPECIALIST, 3):
@@ -39,7 +42,7 @@ def generate_layout(seed, node_names, node_layers, n_layers, n_heads, n_mlps, hu
     n_hubs = round(hub_fraction * sum(len(c) for c in circuits.values()))
     candidates = [(n, t2) for t in SPECIALIST for n in sorted(circuits[t]) for t2 in SPECIALIST if t2 != t and node_layers[n] in spans[t2]]
     rng.shuffle(candidates)
-    hubs = set()
+    hubs: set[str] = set()
     for n, t2 in candidates:
         if len(hubs) == n_hubs:
             break
@@ -47,6 +50,6 @@ def generate_layout(seed, node_names, node_layers, n_layers, n_heads, n_mlps, hu
             circuits[t2].add(n)
             hubs.add(n)
     order = {n: i for i, n in enumerate(node_names)}
-    circuits = {t: sorted(c, key=order.get) for t, c in circuits.items()}
-    circuits["TASK_GENERAL"] = list(node_names)
-    return {"seed": seed, "spans": spans, "circuits": circuits, "hubs": sorted(hubs, key=order.get)}
+    ordered: dict[str, list[str]] = {t: sorted(c, key=order.__getitem__) for t, c in circuits.items()}
+    ordered["TASK_GENERAL"] = list(node_names)
+    return {"seed": seed, "spans": spans, "circuits": ordered, "hubs": sorted(hubs, key=order.__getitem__)}

@@ -1,32 +1,16 @@
 {
-  "Group-KNN": {
-    "TASK_SYNTAX": [
-      "blocks.1.attn.heads.2"
-    ],
-    "TASK_ARITH": [
-      "blocks.2.attn.heads.0",
-      "blocks.2.attn.heads.3",
-      "blocks.2.attn.heads.7",
-      "blocks.2.mlps.2",
-      "blocks.3.attn.heads.0",
-      "blocks.4.attn.heads.4",
-      "blocks.4.mlps.1",
-      "blocks.5.mlps.2"
-    ],
-    "TASK_RHYME": [
-      "blocks.0.attn.heads.3",
-      "blocks.0.attn.heads.6"
-    ]
-  },
   "Greedy-ACDC": {
     "TASK_SYNTAX": [
       "blocks.1.attn.heads.1",
       "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3",
+      "blocks.1.attn.heads.5",
       "blocks.1.mlps.1",
       "blocks.1.mlps.3",
       "blocks.2.attn.heads.2",
       "blocks.2.attn.heads.4",
       "blocks.2.mlps.3",
+      "blocks.3.attn.heads.3",
       "blocks.3.attn.heads.6",
       "blocks.3.mlps.0",
       "blocks.4.mlps.3"
@@ -37,15 +21,20 @@
       "blocks.2.attn.heads.7",
       "blocks.2.mlps.2",
       "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.7",
       "blocks.3.mlps.2",
       "blocks.4.attn.heads.0",
       "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.7",
       "blocks.4.mlps.1",
+      "blocks.5.attn.heads.3",
+      "blocks.5.attn.heads.6",
       "blocks.5.mlps.2"
     ],
     "TASK_RHYME": [
       "blocks.0.attn.heads.3",
       "blocks.0.attn.heads.6",
+      "blocks.0.mlps.1",
       "blocks.1.mlps.1",
       "blocks.1.mlps.3",
       "blocks.2.mlps.1",
@@ -55,15 +44,62 @@
   "Gradient-Attribution": {
     "TASK_SYNTAX": [
       "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.5",
       "blocks.1.mlps.1",
       "blocks.1.mlps.3",
+      "blocks.2.attn.heads.2",
       "blocks.2.attn.heads.4",
       "blocks.2.mlps.3",
       "blocks.3.mlps.0",
       "blocks.4.mlps.3"
     ],
     "TASK_ARITH": [
+      "blocks.0.attn.heads.1",
+      "blocks.0.attn.heads.3",
+      "blocks.0.attn.heads.4",
       "blocks.0.attn.heads.5",
+      "blocks.0.attn.heads.6",
+      "blocks.0.attn.heads.7",
+      "blocks.0.mlps.1",
+      "blocks.0.mlps.2",
+      "blocks.0.mlps.3",
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.2",
+      "blocks.1.mlps.0",
+      "blocks.1.mlps.1",
+      "blocks.1.mlps.3",
+      "blocks.2.attn.heads.0",
+      "blocks.2.attn.heads.3",
+      "blocks.2.attn.heads.7",
+      "blocks.2.mlps.2",
+      "blocks.3.attn.heads.0",
+      "blocks.3.attn.heads.7",
+      "blocks.3.mlps.2",
+      "blocks.4.attn.heads.0",
+      "blocks.4.attn.heads.4",
+      "blocks.4.attn.heads.7",
+      "blocks.4.mlps.1",
+      "blocks.5.attn.heads.2",
+      "blocks.5.attn.heads.3",
+      "blocks.5.attn.heads.6",
+      "blocks.5.mlps.2"
+    ],
+    "TASK_RHYME": [
+      "blocks.0.attn.heads.3",
+      "blocks.0.attn.heads.6",
+      "blocks.1.mlps.1",
+      "blocks.2.mlps.1",
+      "blocks.3.mlps.1"
+    ]
+  },
+  "Group-KNN": {
+    "TASK_SYNTAX": [
+      "blocks.1.attn.heads.1",
+      "blocks.1.attn.heads.2",
+      "blocks.1.attn.heads.3",
+      "blocks.1.attn.heads.5"
+    ],
+    "TASK_ARITH": [
       "blocks.2.attn.heads.0",
       "blocks.2.attn.heads.3",
       "blocks.2.attn.heads.7",
@@ -72,17 +108,12 @@
       "blocks.3.attn.heads.7",
       "blocks.3.mlps.2",
       "blocks.4.attn.heads.4",
-      "blocks.4.attn.heads.7",
       "blocks.4.mlps.1",
-      "blocks.5.attn.heads.2",
-      "blocks.5.attn.heads.6",
       "blocks.5.mlps.2"
     ],
     "TASK_RHYME": [
       "blocks.0.attn.heads.3",
-      "blocks.0.attn.heads.6",
-      "blocks.1.mlps.1",
-      "blocks.3.mlps.1"
+      "blocks.0.attn.heads.6"
     ]
   }
 }
